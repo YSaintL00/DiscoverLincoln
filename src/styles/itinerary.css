@@ -1,0 +1,72 @@
+#itinerary-page .overall {
+  background: var(--Background, #f6f1eb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#itinerary-page .background {
+}
+
+#itinerary-page .itinerary-info {
+}
+
+#itinerary-page .header {
+  color: var(--Black, #000);
+
+  /* Heading 1 */
+  font-family: "Roboto Slab";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#itinerary-page .body {
+  color: #000;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  display: flex;
+}
+
+#itinerary-page .body span {
+  color: #1e5639;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#itinerary-page .print-button {
+  display: flex;
+  flex-wrap: wrap;
+  width: 175px;
+  height: 51px;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  color: #fff;
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  border-radius: 4px;
+  background: #8bc49b;
+
+  /* Shadow */
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}

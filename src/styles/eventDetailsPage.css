@@ -1,0 +1,12 @@
+.detailsBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F6F1EB;
+    width: 100%;
+  }
+.paraStyle{
+    width: 708px;
+    flex-shrink: 0;
+    padding:20px;
+}

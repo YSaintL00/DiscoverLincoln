@@ -1,0 +1,148 @@
+#contact-page input {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 400px;
+  border-radius: var(--border-radius);
+  padding: 20px;
+  margin: 10px 0px 10px 0px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+#contact-page textarea {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 400px;
+  resize: none;
+  border-radius: var(--border-radius);
+  padding: 20px;
+  margin: 10px 0px 10px 0px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+#contact-page .container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#contact-page .fmap {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#contact-page .header {
+  font-family: Roboto Slab;
+  font-size: 46px;
+  font-weight: 700;
+  color: var(--Black, #000);
+}
+
+#contact-page .header span {
+  color: var(--Dark-Green, #1e5639);
+}
+
+#contact-page .border {
+  align-items: center;
+  justify-content: center;
+}
+
+#contact-page .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  border-radius: var(--border-radius);
+  background: var(--Dark-Green, #1e5639);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 20px;
+}
+
+#contact-page .contact-option {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 12px;
+}
+
+#contact-page .contact-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 20px;
+  width: 100%;
+  z-index: 10;
+}
+
+#contact-page .green {
+  color: var(--Dark-Green, #1e5639);
+}
+
+#contact-page .picture {
+  height: 420px;
+  width: 400px;
+  display: flex;
+  border-radius: var(--border-radius);
+  z-index: 10;
+  object-fit: cover;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+#contact-page .background {
+  height: fit-content;
+  max-width: 950px;
+  padding: 50px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  background-color: #fcfaf8;
+  gap: 20px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+#contact-page .contactInfo {
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+#contact-page .centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#contact-page .form {
+  height: auto;
+}
+
+#contact-page .background-accent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #8bc49b;
+  height: 150%;
+  width: 300px;
+  z-index: 0;
+  transform: rotate(5deg) translateX(50px) translateY(-100px);
+}

@@ -1,0 +1,84 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #1e5639;
+  width: 650px;
+  height: 590px;
+  flex-shrink: 0;
+  z-index: -1;
+}
+.diagonal {
+  display: flex;
+  width: 61.572px;
+  height: 595px;
+  transform: rotate(5.732deg);
+  flex-shrink: 0;
+  border-right: 15px solid #102e1e;
+  background: #1e5639;
+  margin-top: -5px;
+  margin-left: -30px;
+  z-index: -1;
+}
+.text {
+  align-self: left;
+  margin-left: 113px;
+  margin-right: 91px;
+  color: white;
+  padding: 100px 0px;
+  font-size: 24px;
+}
+.headerStyle {
+  font-size: 48px;
+  width: 338px;
+  font-family: roboto slab;
+}
+.organizationName {
+  color: #8bc49b;
+  margin-bottom: 10px;
+}
+.h3Styles {
+  color: #f6f1eb;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.margin{
+  margin-top: 10px;
+}
+.bannerPic {
+  display: flex;
+  margin-left: 550px;
+  width: 850px;
+  height: 601px;
+  flex-shrink: 0;
+  position: absolute;
+  z-index: -3;
+}
+
+.itineraryButton {
+  margin-top: 20px;
+  font-size: 20px;
+  display: flex;
+  width: 254px;
+  height: 49px;
+  padding: 6px 7px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--Blue-Accent, #117199);
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.bottomBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  background: #f6f1eb;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 52px;
+}

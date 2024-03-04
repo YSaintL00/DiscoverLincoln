@@ -1,0 +1,125 @@
+#register-page .overall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#register-page .background {
+  width: 656px;
+  height: 650px;
+  flex-shrink: 0;
+  padding: 50px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  background-color: #fcfaf8;
+  gap: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+#register-page .background-green {
+  width: 656px;
+  height: 650px;
+  flex-shrink: 0;
+  padding: 50px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  background: var(--Darker-Green, #102e1e);
+  gap: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+#register-page .register-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+#register-page .form-info {
+  height: auto;
+}
+
+#register-page .header {
+  color: var(--Black, #000);
+  font-family: "Roboto Slab";
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#register-page .header span {
+  width: 493px;
+  color: var(--Background, #fcfaf8);
+  font-family: "Roboto Slab";
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#register-page .body {
+  color: var(--Background, #f6f1eb);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#register-page .login-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 85px;
+  border-radius: var(--Cradius);
+  background: var(--Dark-Green, #1e5639);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 20px;
+}
+
+#register-page .register-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 85px;
+  border-radius: var(--Cradius);
+  background: var(--Dark-Green, #1e5639);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 20px;
+}
+
+#register-page input {
+  display: flex;
+  width: 533px;
+  height: 64px;
+  padding: 27px 16px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #fff;
+  margin: 10px 0px 10px 0px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
